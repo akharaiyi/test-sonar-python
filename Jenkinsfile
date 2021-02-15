@@ -2,7 +2,7 @@ node("Test-machine-linux"){
 @Library('Personal-Jenkins-shared-library') _
         stage('git checkout'){
             scmcheckout{
-                branch = 'master'
+                branch = 'main'
                 url = 'https://github.com/akharaiyi/test-sonar-python.git'
             }
         }

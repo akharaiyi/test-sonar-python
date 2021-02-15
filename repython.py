@@ -1,5 +1,5 @@
 import sys, os
-import xml2_python
+# import xml2_python
 import re
 
 
@@ -25,7 +25,9 @@ def check_str():
                     print('great job SUCCESS')
                 else:
                     print('Please ran the sonar stage')
-                    sys.exit(-1) # fail the build.. 
+                    sys.exit(-1)
+    except Exception as e:
+        print('error')                
              
 
 
@@ -35,6 +37,6 @@ def main():
 
 
 
-if __name__ == "__main__:"    
+if __name__ == "__main__":   
     main()
    

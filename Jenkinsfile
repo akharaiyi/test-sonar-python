@@ -3,7 +3,7 @@ node("Test-machine-linux"){
         stage('git checkout'){
             scmcheckout{
                 branch = 'master'
-                url = 'https://github.com/akharaiyi/Test-python-sonar-scan-CI.git'
+                url = 'https://github.com/akharaiyi/test-sonar-python.git'
             }
         }
 

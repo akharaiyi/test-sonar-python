@@ -1,7 +1,5 @@
 import sys, os
-# import xml2_python
 import re
-
 
 
 values = "please  SONAR ANALYSIS call me when https://sonar.fmr.com/sonar/dashbaord you SONAR ScaN ctgsonarcustomgate  ctgsonarquality() please call me"
@@ -27,7 +25,7 @@ def check_str():
                     print('Please ran the sonar stage')
                     sys.exit(-1)
     except Exception as e:
-        print('error')                
+        print(f'error {e}')                
              
 
 

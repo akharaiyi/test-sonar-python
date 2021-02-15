@@ -1,15 +1,12 @@
-import os
+import os, sys
 
 def print_hi(name):
     print(f'my name is: {name}')
 
 
+name = ''
 
 print(os.name)
-
-
-
-
 
 
 

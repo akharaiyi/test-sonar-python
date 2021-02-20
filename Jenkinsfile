@@ -6,11 +6,11 @@ node("Test-machine-linux"){
                 url = 'https://github.com/akharaiyi/test-sonar-python.git'
             }
         }
-
         stage('check the dir for all file and build'){
             echo "ls -R"
         }
 
+        ''
 
         stage('build'){
            echo "building the java project"
@@ -24,9 +24,10 @@ node("Test-machine-linux"){
 
         stage("upload to nexus"){
             echo "happy code and enage in devops lol...."
+        
+        
 
       }
-
 
 
 }
